@@ -1,0 +1,26 @@
+# MAC Address Changer - Dependencies
+
+# No external dependencies required!
+# This tool uses only Python standard library modules
+
+# Built-in Python Modules (included with Python):
+# System command execution
+subprocess
+
+# Command line argument parsing
+optparse
+
+# Regular expressions for MAC address parsing
+re
+
+# System Requirements:
+# - Python 3.6 or higher
+# - Network interface access (may require sudo/administrator)
+# - ifconfig command available on system
+
+# Installation:
+# No pip install required - uses only standard library
+# Just run: python macChanger.py
+
+# Note: This tool is designed to be lightweight with no external dependencies.
+# It relies on system ifconfig commands for network interface operations. 
